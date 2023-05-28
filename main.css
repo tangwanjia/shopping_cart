@@ -1,0 +1,157 @@
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    
+}
+body{
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+h1{
+    /* padding-bottom: 10px;
+    padding-left: 300px; */
+    padding: 10px 0 15px 300px;
+    font-size: 49px;
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.form{
+    padding: 10px;
+}
+input{
+    padding: 5px;
+}
+input[type=text],input[type=email]{
+    width: 220px;
+}
+.intakeForm{
+    width: 1000px;
+    padding: 30px;
+    font-size: 20px;
+}
+form{
+    padding-bottom: 10px;
+}
+.form{
+    display: flex;
+}
+.leftbox{
+    width: 580px;
+    height: 100%;
+    float: left;
+}
+.rightbox{
+    height: 100%;
+    width: 580px;
+  
+
+}
+.subbox{
+    display: flex;
+    gap: 2rem;
+}
+
+
+.deliveried{
+    display: flex;
+    gap: 2rem;
+}
+.deliveried label{
+    color: grey;
+}
+.deliveried label, .deliveried input{
+    vertical-align: middle;
+    text-align: center;
+    
+}
+
+.time{
+    display: flex;
+    gap: 2.5rem;
+}
+.time input{
+    width: 80px;
+}
+
+.call label,.call input[type="radio"]{
+    margin: 6px 0 ;
+}
+.requirements{
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.493);
+}
+.requirements label,.requirements input[type="radio"]{
+    margin: 6px 0;
+}
+
+#describe{
+    display:none
+}
+#specialreq{
+    display:none
+}
+#submit{
+    background-color:#000000;
+    color: rgb(254, 254, 254);
+    border-radius: 10px;
+    font-size: 16px;
+    width: 100px;
+    border: none;
+    margin-bottom: 30px;
+}
+#reset{
+    background-color:#000000;
+    color: rgb(255, 249, 249);
+    border-radius: 10px;
+    font-size: 16px;
+    width: 100px;
+    border: none;
+    margin-bottom: 30px;
+}
+
+footer{
+    color: white;
+    text-align: right;
+    padding: 15px;
+    vertical-align: middle;
+    position: relative;
+    margin-top: -100px;
+    clear: both;
+}
+footer img{
+    float: left;
+    margin: 15px;
+    
+    height: 65px;
+    vertical-align: middle;
+}
+address, nav a {
+    font-style: normal;
+}
+
+
+.alert{
+    color:red;
+}
+    
+.cart{
+    float: right;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+  }
+  
+table td, table th {
+    border: 1px solid;
+    padding: 8px;
+    text-align: center;
+  }
+

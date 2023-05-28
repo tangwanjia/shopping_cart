@@ -1,0 +1,27 @@
+[
+    {
+      "name": "plate",
+      "value": 30,
+      "image":"./images/pat.jpg"
+
+    },
+    {
+      "name": "Watterbottle",
+      "value": 20,
+      "image":"./images/wb.jpg"
+
+    },
+    {
+      "name": "bowl",
+      "value": 30,
+      "image":"./images/bl.jpg"
+
+    },
+    {
+      "name": "Chopsticks",
+      "value": 40,
+      "image":"./images/chop.jpg"
+
+    }
+  ]
+  
